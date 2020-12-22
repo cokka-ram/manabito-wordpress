@@ -7,10 +7,10 @@
 <?php endif; ?>
 <div class="contents">
 	<main>
-	<?php if( have_posts() ) :
-		while ( have_posts() ) :
-			the_post();
-			?>
+		<?php if( have_posts() ) :
+			while ( have_posts() ) :
+				the_post();
+		?>
 			<article>
 			<?php the_title( '<h1>', '</h1>' ); ?>
 			<span>
